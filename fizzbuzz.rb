@@ -7,9 +7,8 @@ def fizzbuzz
     return"Fizz"
   elsif val % 5 == 0 
     return "Buzz"
-  elsif val % 3 ==0 && elsif val % 5 == 0 
+  elsif val % 3 ==0 && val % 5 == 0 
   return "fizzbuzz"
-else val % 3 !=0 && elsif val % 5 != 0 
+else val % 3 !=0 && val % 5 != 0 
   return nil
-   
 end 

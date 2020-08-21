@@ -5,9 +5,11 @@
 string = ""
 def fizzbuzz
   if val % 3 ==0 
-    string + "fizz"
+    string + "Fizz"
   elsif val % 5 == 0 
-   string + ""
+   string + "Buzz"
+  elsif val % 3 ==0 && elsif val % 5 == 0 
+   
     
     
 end 

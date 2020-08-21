@@ -2,14 +2,12 @@
 # See README.md for instructions on how to do this
 
 
-string = ""
 def fizzbuzz
   if val % 3 ==0 
-    string + "Fizz"
+    return"Fizz"
   elsif val % 5 == 0 
-   string + "Buzz"
+    return "Buzz"
   elsif val % 3 ==0 && elsif val % 5 == 0 
+  return nil
    
-    
-    
 end 
